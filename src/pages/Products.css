@@ -1,0 +1,32 @@
+.products-page {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.products-page h2 {
+  margin-bottom: 24px;
+  color: #333;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .products-page {
+    padding: 12px;
+  }
+
+  .products-page h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .products-page {
+    padding: 10px;
+  }
+
+  .products-page h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+} 
